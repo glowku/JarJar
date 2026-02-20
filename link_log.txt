@@ -1,0 +1,1 @@
+C:\msys64\opt\cross\bin\x86_64-elf-ld.exe: warning: cannot find entry symbol kmain; defaulting to ffffffff80000000

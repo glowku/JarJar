@@ -1,0 +1,22 @@
+kernel/src/main.c:25:24: error: variable 'framebuffer_request' has initializer but incomplete type
+   25 | static volatile struct limine_framebuffer_request framebuffer_request = {
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+kernel/src/main.c:26:6: error: 'volatile struct limine_framebuffer_request' has no member named 'id'
+   26 |     .id = LIMINE_FRAMEBUFFER_REQUEST,
+      |      ^~
+kernel/src/main.c:26:11: error: 'LIMINE_FRAMEBUFFER_REQUEST' undeclared here (not in a function); did you mean 'LIMINE_MEMMAP_REQUEST'?
+   26 |     .id = LIMINE_FRAMEBUFFER_REQUEST,
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |           LIMINE_MEMMAP_REQUEST
+kernel/src/main.c:26:11: warning: excess elements in struct initializer
+kernel/src/main.c:26:11: note: (near initialization for 'framebuffer_request')
+kernel/src/main.c:27:6: error: 'volatile struct limine_framebuffer_request' has no member named 'revision'
+   27 |     .revision = 0
+      |      ^~~~~~~~
+kernel/src/main.c:27:17: warning: excess elements in struct initializer
+   27 |     .revision = 0
+      |                 ^
+kernel/src/main.c:27:17: note: (near initialization for 'framebuffer_request')
+kernel/src/main.c:25:51: error: storage size of 'framebuffer_request' isn't known
+   25 | static volatile struct limine_framebuffer_request framebuffer_request = {
+      |                                                   ^~~~~~~~~~~~~~~~~~~

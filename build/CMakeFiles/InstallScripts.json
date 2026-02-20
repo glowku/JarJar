@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/cmake_install.cmake",
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/libc/cmake_install.cmake",
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/kernel/cmake_install.cmake",
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/filesystem/cmake_install.cmake",
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/drivers/cmake_install.cmake",
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/ai_core/cmake_install.cmake",
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/gui/cmake_install.cmake",
+		"C:/Users/slash/Downloads/VM/p/jarjarvis/build/tools/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
