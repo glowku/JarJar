@@ -1,4 +1,4 @@
-# En production
+# En production ( ne pas installer) In produc, please don't install now
 
 # JARJARVIS Operating System
 
