@@ -1,5 +1,5 @@
 
-GPU & BOOT LOAD 🥂 🎊 👏  45 % done !
+GPU  OS & BOOT LOAD 🥂 🎊 👏  100 % done !
 
 
 # En production ( ne pas installer) In produc, please don't install now is not a final product contact me for join project
